@@ -17,35 +17,46 @@ class FavoriteList extends React.Component {
 
   render() {
     const favRacers = this.state.favRacers
-    return (
-      <div>
-        <Navbar title="Your Favorite Racers" />
-        <ul>
-          {favRacers &&
-            favRacers.map((racer, index) => (
-              <div>
+    if (!favRacers) {
+      return (
+        <div>
+          <Navbar title="Your Favorite Racers" />
+          <h4>you don't have favorite racers</h4>
+        </div>
+      )
+    } else {
+      return (
+        <div>
+          <Navbar title="Your Favorite Racers" />
+          <ul>
+            {favRacers &&
+              favRacers.map((racer, index) => (
                 <div>
-                  <li key={index}>{racer}</li>
+                  <li key={index}>
+                    {racer}
+                    <span>
+                      <button
+                        id="removeFavBtn"
+                        key={index}
+                        onClick={() => {
+                          let existing = localStorage.getItem("racer")
+                          existing = existing ? existing.split(",") : []
+                          let indexRacer = existing.indexOf(racer)
+                          existing.splice(indexRacer, 1)
+                          localStorage.setItem("racer", existing.toString())
+                          window.location.reload()
+                        }}
+                      >
+                        remove racer
+                      </button>
+                    </span>
+                  </li>
                 </div>
-                <div>
-                  <button
-                    id="removeFavBtn"
-                    key={index}
-                    onClick={() => {
-                      let existing = localStorage.getItem("racer")
-                      existing = existing ? existing.split(",") : []
-                      existing.splice(existing.indexOf(racer))
-                      localStorage.setItem("racer", existing.toString())
-                    }}
-                  >
-                    remove racer
-                  </button>
-                </div>
-              </div>
-            ))}
-        </ul>
-      </div>
-    )
+              ))}
+          </ul>
+        </div>
+      )
+    }
   }
 }
 
