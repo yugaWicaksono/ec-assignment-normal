@@ -1,10 +1,27 @@
 #removeFavBtn {
   margin: 0.8vw;
-  padding: 0.5em;
-  font-size: 1.5em;
+  padding: 0.2em;
+  font-size: 1em;
   border: 0;
   background-color: rgba(202, 202, 202, 0.746);
   box-shadow: none;
   border-radius: 0px;
   animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+#noRacerTitle {
+  margin-top: 20vw;
+}
+
+#racerListItem:nth-child(1) {
+  background: #15151e;
+  transform: skew(-3deg);
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
 }

@@ -1,3 +1,49 @@
+@media (max-width: 767px) {
+  #headerTitle {
+    width: 80vw;
+    font-size: 18px;
+    font-family: "Bungee", cursive;
+  }
+
+  #addFav {
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    background-color: none;
+    font-family: "Bungee", cursive;
+    transform: skew(-3deg);
+    border: none;
+    color: white;
+    padding: 1vw 1.2vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  #headerTitle {
+    width: 80vw;
+    font-size: 24px;
+    font-family: "Bungee", cursive;
+  }
+
+  #addFav {
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    background-color: none;
+    font-family: "Bungee", cursive;
+    transform: skew(-3deg);
+    border: none;
+    color: white;
+    padding: 1vw 1.2vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+  }
+}
+
 #container {
   align-items: center;
   display: flex;
@@ -11,25 +57,4 @@
   -webkit-box-shadow: 0px 9px 10px 0px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 9px 10px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 9px 10px 0px rgba(0, 0, 0, 0.5);
-}
-
-#headerTitle {
-  width: 80vw;
-  font-size: 26px;
-  font-family: "Bungee", cursive;
-}
-
-#addFav {
-  margin-top: 3vw;
-  margin-bottom: 0;
-  background-color: none;
-  font-family: "Bungee", cursive;
-  transform: skew(5deg);
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
 }

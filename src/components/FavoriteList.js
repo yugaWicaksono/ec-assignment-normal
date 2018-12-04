@@ -17,14 +17,8 @@ class FavoriteList extends React.Component {
 
   render() {
     const favRacers = this.state.favRacers
-    if (!favRacers) {
-      return (
-        <div>
-          <Navbar title="Your Favorite Racers" />
-          <h4>you don't have favorite racers</h4>
-        </div>
-      )
-    } else {
+    console.log(favRacers.length)
+    if (favRacers.length > 1) {
       return (
         <div>
           <Navbar title="Your Favorite Racers" />
@@ -54,6 +48,13 @@ class FavoriteList extends React.Component {
                 </div>
               ))}
           </ul>
+        </div>
+      )
+    } else {
+      return (
+        <div>
+          <Navbar title="Your Favorite Racers" />
+          <h4 id="noRacerTitle">you don't have favorite racers</h4>
         </div>
       )
     }

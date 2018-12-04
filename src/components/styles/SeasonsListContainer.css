@@ -12,15 +12,15 @@
     align-self: center;
     list-style-type: none;
     padding: 0;
-    margin: 5vw 8vw;
+    margin: 5vh 5vw;
   }
 
   li {
-    animation: 1s ease-out 0s 1 slideInFromLeft;
-    transform: skew(5deg);
-    margin: 4vw 1vw 0;
-    padding: 0.2em;
-    font-size: 1.5em;
+    animation: 0.5s ease-out 0s 1 slideInFromLeft;
+    transform: skew(-3deg);
+    margin: 1vh 1vw;
+    padding: 0.5em;
+    font-size: 12px;
     background-color: rgba(202, 202, 202, 0.746);
   }
 }
@@ -30,13 +30,13 @@
     align-self: center;
     list-style-type: none;
     padding: 0;
-    margin: 3vw 8vw;
+    margin: 5vh 5vw;
   }
 
   li {
-    animation: 1s ease-out 0s 1 slideInFromLeft;
-    transform: skew(5deg);
-    margin: 0.8vw;
+    animation: 0.5s ease-out 0s 1 slideInFromLeft;
+    transform: skew(-3deg);
+    margin: 1vh 0.8vw;
     padding: 0.5em;
     font-size: 1.5em;
     background-color: rgba(202, 202, 202, 0.746);
@@ -48,13 +48,13 @@
     align-self: center;
     list-style-type: none;
     padding: 0;
-    margin: 3vw 8vw;
+    margin: 5vh 5vw;
   }
 
   li {
-    animation: 1s ease-out 0s 1 slideInFromLeft;
-    transform: skew(5deg);
-    margin: 0.8vw;
+    animation: 0.5s ease-out 0s 1 slideInFromLeft;
+    transform: skew(-3deg);
+    margin: 1vh 0.8vw;
     padding: 0.5em;
     font-size: 1.5em;
     background-color: rgba(202, 202, 202, 0.746);
@@ -72,7 +72,7 @@ li:hover {
 }
 
 button {
-  animation: 1s ease-out 0s 1 slideInFromLeft;
+  animation: 0.5s ease-out 0s 1 slideInFromLeft;
   cursor: pointer;
 }
 
