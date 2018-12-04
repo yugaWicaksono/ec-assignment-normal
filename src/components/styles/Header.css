@@ -1,0 +1,35 @@
+#container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: red;
+  flex-direction: row;
+  justify-content: center;
+  font-style: italic;
+  padding: 1.5vw 1.5vh;
+  border-radius: 1px;
+  -webkit-box-shadow: 0px 9px 10px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 9px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 9px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+#headerTitle {
+  width: 80vw;
+  font-size: 26px;
+  font-family: "Bungee", cursive;
+}
+
+#addFav {
+  margin-top: 3vw;
+  margin-bottom: 0;
+  background-color: none;
+  font-family: "Bungee", cursive;
+  transform: skew(5deg);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

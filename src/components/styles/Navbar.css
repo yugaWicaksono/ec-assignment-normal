@@ -1,0 +1,20 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  background: red;
+  font-style: italic;
+  font-family: "Bungee", cursive;
+  padding: 1vw 1vh;
+  border-radius: 1px;
+  -webkit-box-shadow: 0px 9px 10px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 9px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 9px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+#navTitle {
+  padding: 1vw 1vh;
+}
+
+#navSubTitle {
+  padding: 1vw 1vh;
+}

@@ -1,0 +1,10 @@
+#removeFavBtn {
+  margin: 0.8vw;
+  padding: 0.5em;
+  font-size: 1.5em;
+  border: 0;
+  background-color: rgba(202, 202, 202, 0.746);
+  box-shadow: none;
+  border-radius: 0px;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
