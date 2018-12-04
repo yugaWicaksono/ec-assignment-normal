@@ -15,14 +15,6 @@ class FavoriteList extends React.Component {
     }
   }
 
-  componentDidUpdate() {
-    if (localStorage.getItem("racer") !== null) {
-      let storeRacers = localStorage.getItem("racer")
-      let racerArray = storeRacers.split(",")
-      return this.setState({ favRacers: racerArray })
-    }
-  }
-
   render() {
     const favRacers = this.state.favRacers
     return (
