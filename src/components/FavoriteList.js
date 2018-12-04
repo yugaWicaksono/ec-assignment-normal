@@ -1,6 +1,7 @@
 import * as React from "react"
-import "./styles/FavoriteList.css"
+import { TinyButton as ScrollUpButton } from "react-scroll-up-button"
 import Navbar from "./ui/Navbar"
+import "./styles/FavoriteList.css"
 
 class FavoriteList extends React.Component {
   state = {
@@ -26,8 +27,10 @@ class FavoriteList extends React.Component {
             {favRacers &&
               favRacers.map((racer, index) => (
                 <div>
+                  <ScrollUpButton />
                   <li key={index}>
                     {racer}
+                    {"     "}
                     <span>
                       <button
                         id="removeFavBtn"

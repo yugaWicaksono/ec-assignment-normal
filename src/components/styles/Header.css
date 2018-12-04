@@ -29,8 +29,29 @@
   }
 
   #addFav {
-    margin-top: 3vw;
-    margin-bottom: 3vw;
+    margin: 3vh 0;
+    background-color: none;
+    font-family: "Bungee", cursive;
+    transform: skew(-3deg);
+    border: none;
+    color: white;
+    padding: 1vw 1.2vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #headerTitle {
+    width: 80vw;
+    font-size: 30px;
+    font-family: "Bungee", cursive;
+  }
+
+  #addFav {
+    margin: 3vh 0;
     background-color: none;
     font-family: "Bungee", cursive;
     transform: skew(-3deg);
@@ -52,7 +73,7 @@
   flex-direction: row;
   justify-content: center;
   font-style: italic;
-  padding: 1.5vw 1.5vh;
+  padding: 1.5vh 1.5vw;
   border-radius: 1px;
   -webkit-box-shadow: 0px 9px 10px 0px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 9px 10px 0px rgba(0, 0, 0, 0.5);

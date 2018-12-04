@@ -16,7 +16,7 @@
   }
 
   li {
-    animation: 0.5s ease-out 0s 1 slideInFromLeft;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
     transform: skew(-3deg);
     margin: 1vh 1vw;
     padding: 0.5em;
@@ -34,7 +34,7 @@
   }
 
   li {
-    animation: 0.5s ease-out 0s 1 slideInFromLeft;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
     transform: skew(-3deg);
     margin: 1vh 0.8vw;
     padding: 0.5em;
@@ -52,7 +52,7 @@
   }
 
   li {
-    animation: 0.5s ease-out 0s 1 slideInFromLeft;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
     transform: skew(-3deg);
     margin: 1vh 0.8vw;
     padding: 0.5em;
@@ -72,7 +72,7 @@ li:hover {
 }
 
 button {
-  animation: 0.5s ease-out 0s 1 slideInFromLeft;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
   cursor: pointer;
 }
 

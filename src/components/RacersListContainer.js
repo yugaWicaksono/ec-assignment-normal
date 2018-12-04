@@ -4,7 +4,6 @@ import Navbar from "./ui/Navbar"
 import { fetchRacerAction } from "../redux-store/actions/fetchRacers"
 import { resetRacers } from "../redux-store/actions/resetRacers"
 import { TinyButton as ScrollUpButton } from "react-scroll-up-button"
-import { Link } from "react-router-dom"
 import "./styles/RacersListContainer.css"
 
 class RacersListContainer extends React.Component {
@@ -46,7 +45,7 @@ class RacersListContainer extends React.Component {
                         Driver: {racer.Driver.familyName},
                         {racer.Driver.givenName}{" "}
                         <span>Points: {racer.points}</span>
-                        <span>Position:{racer.position}</span>
+                        <span>Position: {racer.position}</span>
                       </a>
                     </li>
                   </div>
@@ -57,11 +56,12 @@ class RacersListContainer extends React.Component {
                         let existing = localStorage.getItem("racer")
                         existing = existing ? existing.split(",") : []
                         if (existing.includes(racer.Driver.familyName)) {
-                          alert("racer already added")
+                          alert("racer already exists")
                           return
                         } else {
                           existing.push(racer.Driver.familyName)
                           localStorage.setItem("racer", existing.toString())
+                          alert("added to favorite")
                         }
                       }}
                     >
