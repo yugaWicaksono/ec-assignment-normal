@@ -1,8 +1,6 @@
 ## Deployed
 
-The app is deployed to netlify [link](https://wonderful-knuth-18d92e.netlify.com).
-You have to allow unsecure connection to view the website as the link to API is pass through HTTP rahter than HTTPS.
-
+The app is deployed to netlify -- [link](https://wonderful-knuth-18d92e.netlify.com).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
