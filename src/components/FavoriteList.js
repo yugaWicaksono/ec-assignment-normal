@@ -18,7 +18,7 @@ class FavoriteList extends React.Component {
 
   render() {
     const favRacers = this.state.favRacers
-    if (favRacers.length > 1) {
+    if (favRacers.length >= 1) {
       return (
         <div>
           <Navbar title="Your Favorite Racers" />
@@ -40,7 +40,7 @@ class FavoriteList extends React.Component {
                           let indexRacer = existing.indexOf(racer)
                           existing.splice(indexRacer, 1)
                           localStorage.setItem("racer", existing.toString())
-                          window.location.reload()
+                         this.props.history.push("/favorites")
                         }}
                       >
                         remove racer
