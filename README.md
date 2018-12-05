@@ -23,5 +23,5 @@ Next to the driver element you can click on the button "add to favorite" to add 
 
 ## Favorites
 
-This list all of your favorite drivers. with the "Remove racer" button you can remove a driver from your favorite list.
+This list all of your favorite drivers. With the "Remove racer" button you can remove a driver from your favorite list.
 
