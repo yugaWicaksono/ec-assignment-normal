@@ -1,3 +1,9 @@
+## Deployed
+
+The app is deployed to netlify [link](https://wonderful-knuth-18d92e.netlify.com).
+You have to allow unsecure connection to view the website as the link to API is pass through HTTP rahter than HTTPS.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Overview
@@ -21,7 +27,3 @@ Next to the driver element you can click on the button "add to favorite" to add 
 
 This list all of your favorite drivers. with the "Remove racer" button you can remove a driver from your favorite list.
 
-## deployed
-
-The app is deployed to netlify [link](https://wonderful-knuth-18d92e.netlify.com).
-You have to allow unsecure connection to view the website as the link to API is pass through HTTP rahter than HTTPS.
