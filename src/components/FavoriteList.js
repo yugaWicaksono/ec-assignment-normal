@@ -18,7 +18,6 @@ class FavoriteList extends React.Component {
 
   render() {
     const favRacers = this.state.favRacers
-    console.log(favRacers.length)
     if (favRacers.length > 1) {
       return (
         <div>
