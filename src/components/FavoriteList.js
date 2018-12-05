@@ -35,12 +35,13 @@ class FavoriteList extends React.Component {
                         id="removeFavBtn"
                         key={index}
                         onClick={() => {
-                          let existing = localStorage.getItem("racer")
-                          existing = existing ? existing.split(",") : []
-                          let indexRacer = existing.indexOf(racer)
-                          existing.splice(indexRacer, 1)
-                          localStorage.setItem("racer", existing.toString())
-                         this.props.history.push("/favorites")
+                          let locRacers = [...favRacers]
+                          let indexRacer = locRacers.indexOf(racer)
+                          console.log(indexRacer)
+                          locRacers.splice(indexRacer, 1)
+                          console.log(locRacers)
+                          this.setState({ favRacers: locRacers })
+                          localStorage.setItem("racer", locRacers.toString())
                         }}
                       >
                         remove racer
