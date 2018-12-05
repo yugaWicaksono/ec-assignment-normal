@@ -1,7 +1,7 @@
 ## Deployed
 
 The app is deployed to netlify -- [link](https://wonderful-knuth-18d92e.netlify.com)
-and also heroku -- [heroku_link](https://ecassignment.herokuapp.com)
+and also heroku -- [heroku_link](https://ecassignment.herokuapp.com).
 Both are deploy continously (coninous integration), with netlify directly hooked to this github repo.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
