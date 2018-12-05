@@ -8,7 +8,7 @@ export const racersFetched = racers => ({
 })
 
 export const fetchRacerAction = year => dispatch => {
-  request(`$http://ergast.com/api/f1/${year}/driverStandings.json`)
+  request(`http://ergast.com/api/f1/${year}/driverStandings.json`)
     .then(response => {
       dispatch(
         racersFetched(response.body.MRData.StandingsTable.StandingsLists)
