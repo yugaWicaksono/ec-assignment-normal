@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Overview
 
-This project is fulfilled for a part of technical assignment for Ecochain.
+This project a part of technical assignment of Ecochain.
 The API used for this app is http://ergast.com/mrd/.
 
 ## Homepage
@@ -20,10 +20,10 @@ The button at the header "List of your favorite racers" will redirect you to lis
 
 ## Season
 
-On the season list you can click on a driver element to see driver's bio (mostly from wikipedia).
-Next to the driver element you can click on the button "add to favorite" to add the driver to your favorite list.
+On the season list you can click on a driver element to see driver's bio (mostly links to wikipedia).
+You can click on the button "add to favorite" to add the driver to your favorite list.
 
 ## Favorites
 
-This list all of your favorite drivers. With the "Remove racer" button you can remove a driver from your favorite list.
+This list all of your favorite drivers. Using the "Remove racer" button you can remove a driver from your favorite list.
 
